@@ -1,0 +1,661 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.47f1 (88c277b85d21) revision 8962679'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16024 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.47f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Unity/bullet bash01
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+49837
+Successfully changed project path to: D:/Unity/bullet bash01
+D:/Unity/bullet bash01
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6924]  Target information:
+
+Player connection [6924]  * "[IP] 192.168.1.34 [Port] 0 [Flags] 2 [Guid] 3919346697 [EditorId] 3919346697 [Version] 1048832 [Id] WindowsEditor(7,Sunab-Victus) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [6924] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [6924] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 12.34 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.47f1 (88c277b85d21)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/bullet bash01/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0xa7a8)
+    Vendor:   Intel
+    VRAM:     8012 MB
+    Driver:   31.0.101.4146
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.47f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008883 seconds.
+- Loaded All Assemblies, in  0.546 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.448 seconds
+Domain Reload Profiling: 993ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (86ms)
+	LoadAllAssembliesAndSetupDomain (220ms)
+		LoadAssemblies (171ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (217ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (194ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (449ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (367ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (259ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.029 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.056 seconds
+Domain Reload Profiling: 2084ms
+	BeginReloadAssembly (244ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (649ms)
+		LoadAssemblies (529ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (263ms)
+			TypeCache.Refresh (225ms)
+				TypeCache.ScanAssembly (199ms)
+			ScanForSourceGeneratedMonoScriptInfo (30ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1057ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (810ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (624ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 5.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4033 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (241.5 KB). Loaded Objects now: 4496.
+Memory consumption went from 140.8 MB to 140.5 MB.
+Total: 7.036500 ms (FindLiveObjects: 0.832000 ms CreateObjectMapping: 0.142000 ms MarkObjects: 5.627000 ms  DeleteObjects: 0.430800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 671.084075 seconds.
+  path: Assets/Robot Shooting Game/BG/building1.png
+  artifactKey: Guid(25213d61af0d7f445bfd337b9611ba5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/BG/building1.png using Guid(25213d61af0d7f445bfd337b9611ba5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '34b1937cb0e4718acb5105b2b2dc309b') in 0.181334 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Robot Shooting Game/BG/grass2.png
+  artifactKey: Guid(c5af6da749960c4458d17618a84d5f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/BG/grass2.png using Guid(c5af6da749960c4458d17618a84d5f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e94896850aad912e43ac7a0aef96c256') in 0.046343 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Robot Shooting Game/BG/sky1.png
+  artifactKey: Guid(27963c01619d9e848b66cfd19ba12f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/BG/sky1.png using Guid(27963c01619d9e848b66cfd19ba12f27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'c23c944afbabfcd25063feb640dd0237') in 0.071615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 516.266504 seconds.
+  path: Assets/Robot Shooting Game/PSD/explosion.psd
+  artifactKey: Guid(e6bec898864f1384ebb1aa978a1d50d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/PSD/explosion.psd using Guid(e6bec898864f1384ebb1aa978a1d50d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '28840833e3a6eb456f134b1f3ebf64f5') in 0.044863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Robot Shooting Game/PSD/Robot Sniper.psd
+  artifactKey: Guid(7606636a354c5e245ae54f55e2cb5c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/PSD/Robot Sniper.psd using Guid(7606636a354c5e245ae54f55e2cb5c16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8475a9ae000387ea5d5a551fb4b4fc19') in 0.028306 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.045119 seconds.
+  path: Assets/Robot Shooting Game/PSD/robot engine.psd
+  artifactKey: Guid(72d2d789f1afac749b313a3c834ad840) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/PSD/robot engine.psd using Guid(72d2d789f1afac749b313a3c834ad840) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a39a4751dd88a0b7c1856c731f57ca95') in 0.035226 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Robot Shooting Game/PSD/wave1.psd
+  artifactKey: Guid(e00ca58d9c718b1459957c5ed7732255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/PSD/wave1.psd using Guid(e00ca58d9c718b1459957c5ed7732255) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '02b6e149b04a7d8f3bbc1794cae5cc9f') in 0.021390 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Robot Shooting Game/PSD/ship4.psd
+  artifactKey: Guid(0aa10cc4738a9684c8a05afd313b8040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/PSD/ship4.psd using Guid(0aa10cc4738a9684c8a05afd313b8040) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3954aaa421bf186025863a5aa273b6f4') in 0.042280 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Robot Shooting Game/PSD/wave2.psd
+  artifactKey: Guid(f4c6257d205ff8f45b6d2839e608762f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/PSD/wave2.psd using Guid(f4c6257d205ff8f45b6d2839e608762f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9fed218004a43fb5131a19cc55bd4b45') in 0.038927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.236750 seconds.
+  path: Assets/Robot Shooting Game/Explosion/explosion2.png
+  artifactKey: Guid(af68af1f8e5c4164e979d2cded51fbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Explosion/explosion2.png using Guid(af68af1f8e5c4164e979d2cded51fbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f6ceb07e473c4d1bb99ece1b301abf54') in 0.037784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/Robot Shooting Game/Explosion/explosion5.png
+  artifactKey: Guid(fe89138cdf8b1964a8e7238379f7d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Explosion/explosion5.png using Guid(fe89138cdf8b1964a8e7238379f7d07b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f0ab134c80cb63af4b1b16033f24133e') in 0.038988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Robot Shooting Game/Explosion/explosion8.png
+  artifactKey: Guid(d0098d5e98593844f86eb4a5084bbf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Explosion/explosion8.png using Guid(d0098d5e98593844f86eb4a5084bbf53) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'fe9222f1684ebabc1107f070f2cccabd') in 0.035071 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Robot Shooting Game/Explosion/explosion11.png
+  artifactKey: Guid(3a769b42084d1c841be8b8448aaf1dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Explosion/explosion11.png using Guid(3a769b42084d1c841be8b8448aaf1dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ef1e1306741b244fb743818eac90a7ec') in 0.028070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/Robot Shooting Game/Explosion/explosion9.png
+  artifactKey: Guid(461d4903f586eab4f97973e92c9cd69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Explosion/explosion9.png using Guid(461d4903f586eab4f97973e92c9cd69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3d74a9002fdb96884fe5486db9b92b55') in 0.048608 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Robot Shooting Game/Explosion/explosion12.png
+  artifactKey: Guid(73cf250580350a042a956b701a0f7035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Explosion/explosion12.png using Guid(73cf250580350a042a956b701a0f7035) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ddcb2b18fa9aded2a1b43ba6393adcb5') in 0.046925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.234193 seconds.
+  path: Assets/Robot Shooting Game/Enemies/EA1.PNG
+  artifactKey: Guid(8defa1ab2abadf44e8c7d4110b782fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Enemies/EA1.PNG using Guid(8defa1ab2abadf44e8c7d4110b782fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ac353252d4fce673541e472ad0380819') in 0.039598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000452 seconds.
+  path: Assets/Robot Shooting Game/Enemies/EA2.PNG
+  artifactKey: Guid(cfc35f35de18f5044a0ef60e7fcace66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Enemies/EA2.PNG using Guid(cfc35f35de18f5044a0ef60e7fcace66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'e103c79474a4f55c180f4a93ee928ef4') in 0.038169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000336 seconds.
+  path: Assets/Robot Shooting Game/Enemies/EA3.PNG
+  artifactKey: Guid(5f87e78c4bf453347a2b97b44a23a889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Enemies/EA3.PNG using Guid(5f87e78c4bf453347a2b97b44a23a889) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a5edfc8ff9b676d6c63d5a1f1a2e3895') in 0.033894 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Robot Shooting Game/Enemies/EA3 3.PNG
+  artifactKey: Guid(0dc7bcf300f4a434e8b7151932933940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Enemies/EA3 3.PNG using Guid(0dc7bcf300f4a434e8b7151932933940) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2d3da2c05be5754b01b7b56c60d777d3') in 0.025159 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Robot Shooting Game/Enemies/EA4 1.png
+  artifactKey: Guid(6f3fe9cb6229cf34891287b41b43fee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Enemies/EA4 1.png using Guid(6f3fe9cb6229cf34891287b41b43fee1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '46dc700a3d098f3437b7fce6399a6a29') in 0.032324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Robot Shooting Game/Enemies/EA6 1.png
+  artifactKey: Guid(4856acde8491fe545b39b977978b1434) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Enemies/EA6 1.png using Guid(4856acde8491fe545b39b977978b1434) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6d4b4e3e6874e1a8a6671ded97aa056c') in 0.034665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Robot Shooting Game/Enemies/EA6 4.png
+  artifactKey: Guid(94552eb63a5854d4db46a16089c8b781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Enemies/EA6 4.png using Guid(94552eb63a5854d4db46a16089c8b781) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '42eaec6853cbd8c66bd889dc6093608b') in 0.054373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Robot Shooting Game/Enemies/EA2 3.png
+  artifactKey: Guid(122be653ddfb5a644ba367f22b894e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Enemies/EA2 3.png using Guid(122be653ddfb5a644ba367f22b894e3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6dedaaa3061476af24dceb9c95d84261') in 0.051930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Robot Shooting Game/Enemies/EA3 4.PNG
+  artifactKey: Guid(cd7ffd8d3bad70e48b3e815ea20f72a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Enemies/EA3 4.PNG using Guid(cd7ffd8d3bad70e48b3e815ea20f72a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'ec48e11d863dea18f3f7963c08857112') in 0.035430 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.902409 seconds.
+  path: Assets/Robot Shooting Game/Effect/shield1.png
+  artifactKey: Guid(64dd9767134f88547826cd2709b195df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Effect/shield1.png using Guid(64dd9767134f88547826cd2709b195df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '6b1e0840100c572396c8f84b5fb8f4c1') in 0.037761 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Robot Shooting Game/Effect/shield3.png
+  artifactKey: Guid(1ce653e9c02758843969823fed934208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Effect/shield3.png using Guid(1ce653e9c02758843969823fed934208) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f406090035c25460059ecbc22e56be03') in 0.042252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Robot Shooting Game/Effect/skillC4.png
+  artifactKey: Guid(13783e2089fbd0843bcb7f30a3ecb5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Effect/skillC4.png using Guid(13783e2089fbd0843bcb7f30a3ecb5ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9d1fcf1a267720a195a26c0924f344b6') in 0.038688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Robot Shooting Game/Effect/skillC6.png
+  artifactKey: Guid(6e3df4735742aaa4cbdeedc0f93dede5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Effect/skillC6.png using Guid(6e3df4735742aaa4cbdeedc0f93dede5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '2331143ff2fde02d439ae7deb20c8132') in 0.033495 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Robot Shooting Game/Effect/Sparkle2.PNG
+  artifactKey: Guid(26400ea75e18c6543b7312977b9f3d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Effect/Sparkle2.PNG using Guid(26400ea75e18c6543b7312977b9f3d5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '4cee93e0fb0208d91ab9b514cacd6823') in 0.049036 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000240 seconds.
+  path: Assets/Robot Shooting Game/Effect/skillC5.png
+  artifactKey: Guid(6ffa08e4d0cbbcc43834df0203ae3776) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Effect/skillC5.png using Guid(6ffa08e4d0cbbcc43834df0203ae3776) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'f9171b1d36d835fc36bc780d8366cc4f') in 0.046589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Robot Shooting Game/Effect/Sparkle3.PNG
+  artifactKey: Guid(84130c6a8db91e847a69a5723d815a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Effect/Sparkle3.PNG using Guid(84130c6a8db91e847a69a5723d815a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '61bc1b74ec59309bda78d4e2e633b29c') in 0.047862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.680372 seconds.
+  path: Assets/Robot Shooting Game/Bosses/Doghead_boss2.png
+  artifactKey: Guid(234033b7a2f42f840b120d9b9d3e74d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Bosses/Doghead_boss2.png using Guid(234033b7a2f42f840b120d9b9d3e74d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7930c6c0d0cddd768f9ca75ad38e009d') in 0.036389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Robot Shooting Game/Bosses/Doghead_boss3.png
+  artifactKey: Guid(0591e4594c60380419d815b85afff645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Bosses/Doghead_boss3.png using Guid(0591e4594c60380419d815b85afff645) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '9f07afbd8d3f89c41f6c3dd56df82b64') in 0.036599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Robot Shooting Game/Bosses/Head_Boss_02.png
+  artifactKey: Guid(d7bb5c34ddc061a4889acfd8a7ada986) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Bosses/Head_Boss_02.png using Guid(d7bb5c34ddc061a4889acfd8a7ada986) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79c78b96f951a66a357fd0a8082ad974') in 0.038743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.917300 seconds.
+  path: Assets/Robot Shooting Game/misc/Bullet2.png
+  artifactKey: Guid(4ec8a233a39e7a545b64137e5b992b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/misc/Bullet2.png using Guid(4ec8a233a39e7a545b64137e5b992b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '79e53710dd1ae1c263656560c2dae3e5') in 0.035079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/Robot Shooting Game/misc/Clock UI.png
+  artifactKey: Guid(a38db61324040594098c0100bb8b6be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/misc/Clock UI.png using Guid(a38db61324040594098c0100bb8b6be8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '475b66e1e9767fe169072e8a2fd17ce1') in 0.037012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Robot Shooting Game/misc/itemB.png
+  artifactKey: Guid(605ad9250a186ff4a92e0b343aac1ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/misc/itemB.png using Guid(605ad9250a186ff4a92e0b343aac1ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7941fe29ee28a6dcc9ec300ab2649d6e') in 0.035383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Robot Shooting Game/misc/Lazer3.png
+  artifactKey: Guid(36d7254b520a4674497201794aed0057) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/misc/Lazer3.png using Guid(36d7254b520a4674497201794aed0057) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a9566c63028a509e527ba30998a15059') in 0.034707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Robot Shooting Game/misc/Red Sign.png
+  artifactKey: Guid(237a726e848d54048a425b2fffee6495) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/misc/Red Sign.png using Guid(237a726e848d54048a425b2fffee6495) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '72dbcd12edd45cf4da40fa5c0ce3ec1d') in 0.025829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/Robot Shooting Game/misc/Yellow Sign.png
+  artifactKey: Guid(3e36e79ead4ad4544b5f1f6bc4f6fb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/misc/Yellow Sign.png using Guid(3e36e79ead4ad4544b5f1f6bc4f6fb6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'abf3c78b862694fcdb9311b16cc65643') in 0.045859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Robot Shooting Game/misc/Target Sign.png
+  artifactKey: Guid(867e1dd72e737164e806d4febe70e576) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/misc/Target Sign.png using Guid(867e1dd72e737164e806d4febe70e576) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '88eb8adf0257198bc9412b06ccb12aa4') in 0.043037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Robot Shooting Game/misc/Egg1.png
+  artifactKey: Guid(d5cee790fc9c8034482656c7fbac3d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/misc/Egg1.png using Guid(d5cee790fc9c8034482656c7fbac3d9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a841e605205dce5974e813da4ec47530') in 0.049729 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.774383 seconds.
+  path: Assets/Robot Shooting Game/Robot/Engine_fire 2.png
+  artifactKey: Guid(d508d28134d774f42b2d48bc312e396f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Robot/Engine_fire 2.png using Guid(d508d28134d774f42b2d48bc312e396f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '844c0fa9d323ad4e0cadab76fdbf6a7b') in 0.032744 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Robot Shooting Game/Robot/Engine_fire 4.png
+  artifactKey: Guid(b14bc6a2e58022748abe0274a8345df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Robot/Engine_fire 4.png using Guid(b14bc6a2e58022748abe0274a8345df0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'a7831ae39453a452d783347ba3ee6533') in 0.020316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Robot Shooting Game/Robot/Robot_idle 2.PNG
+  artifactKey: Guid(8469d33fea3aa6c4387815d172e7bc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Robot/Robot_idle 2.PNG using Guid(8469d33fea3aa6c4387815d172e7bc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: 'b115fabad0db383d5893c9fd7fd7bdc2') in 0.034788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/Robot Shooting Game/Robot/Robot_idle 1.PNG
+  artifactKey: Guid(a0d04bc828fd4084cb8c7a08091f1aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Robot/Robot_idle 1.PNG using Guid(a0d04bc828fd4084cb8c7a08091f1aae) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '7cba0eac52c9065f605188126f2dd14f') in 0.039861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Robot Shooting Game/Robot/Robot_shoot 1.PNG
+  artifactKey: Guid(e765223c7ed079a4a99f9da343b4d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Robot Shooting Game/Robot/Robot_shoot 1.PNG using Guid(e765223c7ed079a4a99f9da343b4d548) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '45751f166df4b1b7c457335aae796507') in 0.044130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
